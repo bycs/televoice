@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  televoice:
+    container_name: televoice
+    build: .
+    env_file:
+      - .env
+    command: python source/app/main.py
+    volumes:
+      - .:/source/
+    ports:
+      - "8080:8080"

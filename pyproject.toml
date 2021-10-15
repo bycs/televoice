@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "televoice"
+version = "0.1.0"
+description = ""
+authors = ["Stas Cartoon <bycs@mail.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aiogram = "^2.15"
+SpeechRecognition = "^3.8.1"
+pydub = "^0.25.1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+flake8 = "^4.0.1"
+flake8-black = "^0.2.3"
+flake8-builtins = "^1.5.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
