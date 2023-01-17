@@ -9,5 +9,3 @@ services:
     command: python source/app/main.py
     volumes:
       - .:/source/
-    ports:
-      - "8080:8080"
